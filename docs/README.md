@@ -578,9 +578,7 @@ A: We target 99.9% uptime with automatic failover and disaster recovery procedur
 
 ## Star History
 
-Help us grow! If you find Cortexa valuable, please star the repository.
-
-![Star History](https://api.star-history.com/svg?repos=Ishan1012/Cortexa&type=Date)
+Help us grow! If you find Cortexa valuable, please star the repository ⭐.
 
 ---
 
