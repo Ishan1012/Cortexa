@@ -6,7 +6,7 @@
 [![Version](https://img.shields.io/badge/Version-2.0-blue)]()
 [![Python](https://img.shields.io/badge/Python-3.11+-blue)]()
 [![Node.js](https://img.shields.io/badge/Node.js-20+-blue)]()
-[![License](https://img.shields.io/badge/License-Healthcare-brightgreen)]()
+[![License](https://img.shields.io/badge/License-MIT-blue)]()
 
 ## Project Overview
 
