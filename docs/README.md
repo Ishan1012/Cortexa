@@ -8,13 +8,13 @@
 [![Node.js](https://img.shields.io/badge/Node.js-20+-blue)]()
 [![License](https://img.shields.io/badge/License-Healthcare-brightgreen)]()
 
-## 🏥 Project Overview
+## Project Overview
 
 Cortexa is a pioneering, unified multimodal deep learning framework designed to revolutionize clinical diagnostics by seamlessly integrating disparate biomedical data streams. Unlike traditional siloed diagnostic approaches, Cortexa recognizes and leverages the intricate synergistic relationships between different physiological systems.
 
 The platform enables **simultaneous prediction of multiple clinically relevant conditions** through a state-of-the-art deep neural network architecture deployed across a modern, decoupled microservice infrastructure. This innovative approach promises earlier disease detection, more personalized risk stratification, and ultimately, improved patient outcomes.
 
-### ✨ Key Capabilities
+### Key Capabilities
 
 - **Multimodal Data Integration**: Seamlessly fuses physiological time-series (ECG, SpO2, HRV, EDA, TEMP) with medical imaging (MRI, CT)
 - **Simultaneous Multi-Condition Prediction**: Predicts 5+ clinically relevant conditions concurrently
@@ -26,7 +26,7 @@ The platform enables **simultaneous prediction of multiple clinically relevant c
 
 ---
 
-## 🎯 Clinical Use Cases
+## Clinical Use Cases
 
 Cortexa predicts and monitors the following conditions across diverse patient populations:
 
@@ -40,7 +40,7 @@ Cortexa predicts and monitors the following conditions across diverse patient po
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────┐
@@ -73,7 +73,7 @@ Cortexa predicts and monitors the following conditions across diverse patient po
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -160,7 +160,7 @@ uvicorn app.main:app --reload
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 ### Core Documentation
 
@@ -172,15 +172,9 @@ uvicorn app.main:app --reload
 | [ENCRYPTION.md](./ENCRYPTION.md) | Security protocols, encryption implementation, compliance |
 | [DEPLOYMENT.md](./DEPLOYMENT.md) | Production deployment procedures, troubleshooting |
 
-### Getting Started Guides
-
-- **[Clinician Guide](./guides/clinician-guide.md)** - How to use the clinical dashboard
-- **[Developer Setup](./guides/developer-setup.md)** - Local development environment
-- **[Deployment Guide](./DEPLOYMENT.md)** - Production deployment
-
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - **Next.js** 16.1.6 - React framework with SSR
@@ -213,7 +207,7 @@ uvicorn app.main:app --reload
 
 ---
 
-## 📊 Project Structure
+## Project Structure
 
 ```
 cortexa/
@@ -240,11 +234,11 @@ cortexa/
 └── shared/                      # Shared types & utilities
 ```
 
-**For detailed directory structure**, see [ARCHITECTURE.md](./ARCHITECTURE.md#directory-structure-guide)
+**For detailed directory structure**, see [ARCHITECTURE.md](./ARCHITECTURE.md)
 
 ---
 
-## 🚦 Development Workflow
+## Development Workflow
 
 ### 1. Create Feature Branch
 
@@ -288,7 +282,7 @@ Link related issues with #123.
 
 ---
 
-## 🔒 Security & Compliance
+## Security & Compliance
 
 ### Data Protection
 
@@ -324,19 +318,7 @@ Link related issues with #123.
 
 ---
 
-## 📈 Performance Targets
-
-| Metric | Target | Status |
-|--------|--------|--------|
-| ML Inference Latency (p95) | <2 seconds | In Progress |
-| API Response Time (p95) | <100ms | In Progress |
-| System Throughput | >1000 req/min | In Progress |
-| Model Accuracy | >95% per condition | In Progress |
-| System Availability | 99.9% uptime | Target |
-
----
-
-## 🔧 Common Tasks
+## Common Tasks
 
 ### Running Tests
 
@@ -394,7 +376,7 @@ docker build -t cortexa/express-api:v2.0 -f infra/docker/express.Dockerfile .
 
 ---
 
-## 📝 Logging & Debugging
+## Logging & Debugging
 
 ### View Logs
 
@@ -423,11 +405,11 @@ uvicorn app.main:app --reload --log-level debug
 
 ### Common Issues & Solutions
 
-See [Troubleshooting Guide](./DEPLOYMENT.md#troubleshooting--common-issues)
+See [Troubleshooting Guide](./DEPLOYMENT.md)
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from developers, clinicians, and researchers. Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 
@@ -448,7 +430,7 @@ We welcome contributions from developers, clinicians, and researchers. Please se
 
 ---
 
-## 📞 Support & Contact
+## Support & Contact
 
 ### Getting Help
 
@@ -459,11 +441,13 @@ We welcome contributions from developers, clinicians, and researchers. Please se
 
 ### Team Contacts
 
-| Role | Contact | Availability |
-|------|---------|--------------|
-| Project Lead | [Name] | Mon-Fri 9-5 |
-| ML Lead | [Name] | Mon-Fri 9-5 |
-| DevOps Lead | [Name] | 24/7 (on-call) |
+| Role | Contact |
+|------|---------|
+| Project Lead | [Ishan Dwivedi] |
+| Frontend Engineer | [Anshika Bharadwaj] |
+| Backend Developer (Fast API) | [Ayush Raj] |
+| Backend Engineer (Express API) | [Anurag Pandey (2301640100101)] |
+| DevOps Engineer | [Anurag Pandey (2301640100100)] |
 
 ### Community
 
@@ -473,7 +457,7 @@ We welcome contributions from developers, clinicians, and researchers. Please se
 
 ---
 
-## 📋 Development Roadmap
+## Development Roadmap
 
 ### Phase I: System Design ✅ (Week 1)
 - Database schema finalization
@@ -503,23 +487,17 @@ We welcome contributions from developers, clinicians, and researchers. Please se
 - Performance optimization
 - Production readiness
 
-**See [ARCHITECTURE.md](./ARCHITECTURE.md#7-week-development-roadmap) for detailed sprint breakdown**
+**See [ARCHITECTURE.md](./ARCHITECTURE.md) for detailed sprint breakdown**
 
 ---
 
-## 📄 License
+## License
 
-Cortexa is developed for healthcare applications. Licensing terms are restricted to authorized healthcare institutions. For licensing inquiries, contact licensing@cortexa.clinical
+MIT License
 
 ---
 
-## 📚 Related Resources
-
-### Research & References
-
-- [Multimodal Learning in Healthcare](./references/multimodal-learning.md)
-- [Deep Learning for Physiological Signals](./references/signal-processing.md)
-- [HIPAA Compliance Guidelines](./references/hipaa-guidelines.md)
+## Related Resources
 
 ### External Links
 
@@ -530,7 +508,7 @@ Cortexa is developed for healthcare applications. Licensing terms are restricted
 
 ---
 
-## 🎓 Citing Cortexa
+## Citing Cortexa
 
 If you use Cortexa in your research, please cite:
 
@@ -545,7 +523,7 @@ If you use Cortexa in your research, please cite:
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Clinical Advisors**: [Names and institutions]
 - **Dataset Providers**: PhysioNet, Kaggle, MIT-BIH
@@ -554,7 +532,7 @@ If you use Cortexa in your research, please cite:
 
 ---
 
-## 📅 Changelog
+## Changelog
 
 ### Version 2.0 (Current - Feb 28, 2026)
 - Complete architecture redesign with team-based ML pipeline
@@ -570,7 +548,7 @@ If you use Cortexa in your research, please cite:
 
 ---
 
-## ❓ FAQ
+## FAQ
 
 **Q: How accurate are the predictions?**
 A: Each model is trained to >95% accuracy on validation sets. Clinical performance will be validated during independent testing phases.
@@ -598,7 +576,7 @@ A: We target 99.9% uptime with automatic failover and disaster recovery procedur
 
 ---
 
-## 🌟 Star History
+## Star History
 
 Help us grow! If you find Cortexa valuable, please star the repository.
 
@@ -606,4 +584,4 @@ Help us grow! If you find Cortexa valuable, please star the repository.
 
 ---
 
-**Cortexa** - *Bridging Advanced AI and Clinical Care* 🏥
+**Cortexa** - *Bridging Advanced AI and Clinical Care*
