@@ -48,7 +48,7 @@ Cortexa predicts and monitors the following conditions across diverse patient po
 │               Next.js Web App (React 19 + TypeScript)                    │
 └────────────────────────┬─────────────────────────────────────────────────┘
                          │ HTTPS
-        ┌─────────────────▼───────────────────────┐
+        ┌────────────────▼────────────────────────┐
         │   Express.js Orchestrator (API Gateway) │
         │   • Authentication & RBAC               │
         │   • Load Balancing & Routing            │
@@ -580,7 +580,7 @@ A: We target 99.9% uptime with automatic failover and disaster recovery procedur
 
 Help us grow! If you find Cortexa valuable, please star the repository.
 
-[![GitHub Star History](https://api.star-history.com/svg?repos=your-org/cortexa&type=Date)](https://star-history.com/#your-org/cortexa&Date)
+![Star History](https://api.star-history.com/svg?repos=Ishan1012/Cortexa&type=Date)
 
 ---
 
