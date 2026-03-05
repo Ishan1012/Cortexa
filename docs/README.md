@@ -6,7 +6,7 @@
 [![Version](https://img.shields.io/badge/Version-2.0-blue)]()
 [![Python](https://img.shields.io/badge/Python-3.11+-blue)]()
 [![Node.js](https://img.shields.io/badge/Node.js-20+-blue)]()
-[![License](https://img.shields.io/badge/License-Healthcare-brightgreen)]()
+[![License](https://img.shields.io/badge/License-MIT-blue)]()
 
 ## Project Overview
 
@@ -578,9 +578,7 @@ A: We target 99.9% uptime with automatic failover and disaster recovery procedur
 
 ## Star History
 
-Help us grow! If you find Cortexa valuable, please star the repository.
-
-![Star History](https://api.star-history.com/svg?repos=Ishan1012/Cortexa&type=Date)
+Help us grow! If you find Cortexa valuable, please star the repository ⭐.
 
 ---
 
